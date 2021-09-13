@@ -1,0 +1,29 @@
+/* Referenciar # */
+body{
+    background-color: rgb(50, 123, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: solid 1px #000;
+   
+}
+#main-container{
+    /* Espacio interior */ 
+            padding: 0;
+
+    /* Espacio exterior */
+            margin: 0;        
+
+}
+
+#subtittle-Login{
+    padding: 28px;
+    margin: 0;
+}
+#userName{
+   font-size:xx-large
+}
+/* Referencia clase . 
+
+ padding: 300px;
+    margin: 50;
+    */

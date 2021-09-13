@@ -2,9 +2,41 @@
 <html lang="es">
 <head>
     <title>Login Prototipo</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <!-- Estructura Login -->
+    <!-- Contenedor principal-->
+    <div id="main-container">
+        <!-- Menú -->
+        <div id="subtittle-Login">
+            <h2 id="subtittle-Login"> Login </h2>
+            </div>
+            <header>
+            <div id="Menu">
+                <!-- Lista -->
+                <ul>  
+                    <div id="userName">
+                    <p><label id="User"> Ingrese nombre usuario : </label>
+                    <input type="text" id="nomUser"></p>
+                    </div>
+                    <div id="userPass">
+                    <p><label id="pass"> Ingrese su contraseña : </label>
+                    <input type="password" id="pPass"></p>
+                    </div>
+                    <div id="DrownList-Roll">
+                    <label id="sRoll"> Roll </label>
+                    <select name="Roll">
+                        <option selected value="0"> -- Seleccione su Roll -- </option>
+                        <option value="1"> Usuario </option>
+                        <option value="2"> Administrador </option>
+                    </select>
+                    </div>
+                    <p><button type="button" id="btnLogin"> Login </button></p>
+                </ul>
+            </div>
+        </header>
+    </div>
 </body>
 
 </html>
